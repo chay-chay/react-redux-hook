@@ -10,8 +10,9 @@ console.log(account)
 
   return (
     <div className="App">
-      <button>deposit</button>
-      <button>withdraw</button>
+    <h1>{account}</h1>
+      <button style={{margin: 10}}>Deposit</button>
+      <button style={{margin: 10}}>Dithdraw</button>
     </div>
   );
 }
